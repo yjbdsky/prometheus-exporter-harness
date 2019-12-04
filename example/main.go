@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/kawamuray/prometheus-exporter-harness/harness"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/urfave/cli"
+	"github.com/yjbdsky/prometheus-exporter-harness/harness"
 )
 
 type collector struct{}
